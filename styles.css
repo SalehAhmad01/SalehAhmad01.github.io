@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #444;
+}
+.skill-bar {
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+.skill-bar div {
+    height: 100%;
+    background: #4caf50;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+.cv-upload {
+    text-align: center;
+    margin-top: 20px;
+}
+.cv-download {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
