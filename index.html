@@ -4,71 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saleh Ahmad - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Saleh Ahmad</h1>
-        <p>Python & Django Web Developer</p>
+        <div class="header-content">
+            <img src="images/saleh.jpg" alt="Saleh Ahmad" class="profile-img">
+            <h1>Saleh Ahmad</h1>
+            <p>Python & Django Web Developer</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/saleh-ahmad-159858299/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/SalehAhmad01" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/@SalehBodejo" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="salehahmadsarki@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
     </header>
-    
-    <img src="images/saleh.jpg" alt="Saleh Ahmad" class="profile-img">
-    
+
     <section id="about">
         <h2>About Me</h2>
         <p>Highly skilled Python and Django Web Developer with experience in building scalable web applications and APIs.</p>
         <p>I specialize in backend development using Django, RESTful API design, and database optimization. I am passionate about building efficient, maintainable, and secure applications. With hands-on experience in deploying applications to cloud platforms like AWS and DigitalOcean, I ensure seamless scalability.</p>
         <p>Beyond coding, I enjoy mentoring aspiring developers and sharing knowledge through technical writing and tutorials. I am always eager to take on new challenges and work on innovative projects.</p>
     </section>
-    
+
     <section id="skills">
         <h2>Skills</h2>
-        <p>Python</p>
-        <div class="skill-bar"><div style="width: 90%;"></div></div>
-        <p>Django</p>
-        <div class="skill-bar"><div style="width: 90%;"></div></div>
-        <p>HTML & CSS</p>
-        <div class="skill-bar"><div style="width: 60%;"></div></div>
-        <p>JavaScript</p>
-        <div class="skill-bar"><div style="width: 30%;"></div></div>
+        <div class="skill">
+            <p>Python</p>
+            <div class="skill-bar"><div style="width: 90%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>Django</p>
+            <div class="skill-bar"><div style="width: 90%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>HTML & CSS</p>
+            <div class="skill-bar"><div style="width: 60%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="skill-bar"><div style="width: 30%;"></div></div>
+        </div>
     </section>
-    
+
     <section id="experience">
         <h2>Work Experience</h2>
-        <h3><a href="https://stemlab.com.ng/" target="_blank">Web Developer - Stemlab</a></h3>
-        <p>Developed and maintained web applications using Django and Django REST Framework.</p>
-        
-        <h3><a href="https://apply.maikaratu.com.ng/" target="_blank">Python & Web Development Tutor - Maikaratu Academic Consult</a></h3>
-        <p>Teaching Python and web development courses to students, mentoring them in real-world projects.</p>
-        
-        <h3>Freelance Django Developer</h3>
-        <p>Built custom web applications for clients, including e-commerce and management systems.</p>
+        <div class="experience-item">
+            <h3><a href="https://stemlab.com.ng/" target="_blank">Web Developer - Stemlab</a></h3>
+            <p>Developed and maintained web applications using Django and Django REST Framework.</p>
+        </div>
+        <div class="experience-item">
+            <h3><a href="https://apply.maikaratu.com.ng/" target="_blank">Python & Web Development Tutor - Maikaratu Academic Consult</a></h3>
+            <p>Teaching Python and web development courses to students, mentoring them in real-world projects.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Freelance Django Developer</h3>
+            <p>Built custom web applications for clients, including e-commerce and management systems.</p>
+        </div>
     </section>
-    
+
     <section id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li><strong>Telegram Bot Converter:</strong> A bot that converts videos to audio, images to text, text to speech, and more.</li>
-            <li><strong>E-commerce Website:</strong> A full-fledged online store with Django and Stripe payment integration.</li>
-            <li><strong>Blog Platform:</strong> A multi-user blogging system with comment moderation and user profiles.</li>
-        </ul>
+        <div class="project-item">
+            <h3>Telegram Bot Converter</h3>
+            <p>A bot that converts videos to audio, images to text, text to speech, and more.</p>
+        </div>
+        <div class="project-item">
+            <h3>E-commerce Website</h3>
+            <p>A full-fledged online store with Django and Stripe payment integration.</p>
+        </div>
+        <div class="project-item">
+            <h3>Blog Platform</h3>
+            <p>A multi-user blogging system with comment moderation and user profiles.</p>
+        </div>
     </section>
-    
+
     <section id="cv">
         <h2>Download CV</h2>
         <div class="cv-download">
-            <a href="your-cv.pdf" download="Saleh_Ahmad_CV.pdf" class="cv-download-button">Download My CV</a>
+            <a href="my cv.docx" download="my cv.docx" class="cv-download-button">Download My CV</a>
         </div>
     </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: [Your Email]</p>
-        <p>LinkedIn: [Your LinkedIn]</p>
-        <p>GitHub: [Your GitHub]</p>
-        <p>Tel:+234 8108178379 </p>
-    </section>
-    
+
     <footer>
         <p>&copy; 2024 Saleh Ahmad. All rights reserved.</p>
     </footer>
