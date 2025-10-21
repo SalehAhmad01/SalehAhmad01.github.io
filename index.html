@@ -1,100 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saleh Ahmad - Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saleh Ahmad - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <img src="images/saleh.jpg" alt="Saleh Ahmad" class="profile-img">
-            <h1>Saleh Ahmad</h1>
-            <p>Python & Django Web Developer</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/saleh-ahmad-159858299/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/SalehAhmad01" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/@SalehBodejo" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="mailto:salehahmadsarki@gmail.com"><i class="fas fa-envelope"></i></a>
+  <header>
+    <div class="header-content">
+      <img src="images/saleh.jpg" alt="Saleh Ahmad" class="profile-img" />
+      <h1>Saleh Ahmad</h1>
+      <p>Python & Django Web Developer</p>
 
-            </div>
-        </div>
-    </header>
+      <!-- 🌙 Light/Dark Mode Toggle -->
+      <button id="theme-toggle" aria-label="Toggle Theme">
+        <i class="fas fa-moon"></i>
+      </button>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Highly skilled Python and Django Web Developer with experience in building scalable web applications and APIs.</p>
-        <p>I specialize in backend development using Django, RESTful API design, and database optimization. I am passionate about building efficient, maintainable, and secure applications. With hands-on experience in deploying applications to cloud platforms like AWS and DigitalOcean, I ensure seamless scalability.</p>
-        <p>Beyond coding, I enjoy mentoring aspiring developers and sharing knowledge through technical writing and tutorials. I am always eager to take on new challenges and work on innovative projects.</p>
-    </section>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/saleh-ahmad-159858299/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/SalehAhmad01" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/@SalehBodejo" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="mailto:salehahmadsaleh@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skill">
-            <p>Python</p>
-            <div class="skill-bar"><div style="width: 90%;"></div></div>
-        </div>
-        <div class="skill">
-            <p>Django</p>
-            <div class="skill-bar"><div style="width: 90%;"></div></div>
-        </div>
-        <div class="skill">
-            <p>HTML & CSS</p>
-            <div class="skill-bar"><div style="width: 60%;"></div></div>
-        </div>
-        <div class="skill">
-            <p>JavaScript</p>
-            <div class="skill-bar"><div style="width: 30%;"></div></div>
-        </div>
-    </section>
+  <section id="about">
+    <h2>Professional Summary</h2>
+    <p>Highly skilled Python and Django Web Developer with experience in building scalable web applications and APIs. Strong knowledge of database management, cloud deployment, and front-end integration. Passionate about writing clean, efficient, and maintainable code.</p>
+    <p>With over 4 years of experience in web design and Python development, I have honed my skills in creating innovative and user-friendly digital solutions. Having worked at renowned companies like Stemlab and Amchat, I have contributed to impactful projects that demonstrate my proficiency in web technologies and team collaboration.</p>
+  </section>
 
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <div class="experience-item">
-            <h3><a href="https://stemlab.com.ng/" target="_blank">Web Developer - Stemlab</a></h3>
-            <p>Developed and maintained web applications using Django and Django REST Framework.</p>
-        </div>
-        <div class="experience-item">
-            <h3><a href="https://apply.maikaratu.com.ng/" target="_blank">Python & Web Development Tutor - Maikaratu Academic Consult</a></h3>
-            <p>Teaching Python and web development courses to students, mentoring them in real-world projects.</p>
-            <p>Designed and delivered structured Python and web development courses tailored to different skill levels.</p>
-            <p>Mentored students through real-world projects, ensuring they gained hands-on experience in Django, APIs, and cloud deployment.</p>
-            <p>Conducted online and in-person workshops on Python programming, web development best practices, and debugging techniques.</p>
-            <p>Developed course materials, coding challenges, and assessments to track student progress.</p>
-        </div>
-        <div class="experience-item">
-            <h3>Freelance Django Developer</h3>
-            <p>Built custom web applications for clients, including e-commerce and management systems.</p>
-        </div>
-    </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, JavaScript, HTML, CSS</li>
+      <li><strong>Frameworks & Libraries:</strong> Django, Django REST Framework, Bootstrap, React, TypeScriptJS</li>
+      <li><strong>Databases:</strong> PostgreSQL, MySQL, SQLite</li>
+      <li><strong>Tools & Technologies:</strong> Git, Docker, Celery, Redis, RESTful APIs</li>
+      <li><strong>Deployment & Cloud:</strong> AWS, Heroku, DigitalOcean</li>
+      <li><strong>Others:</strong> Unit Testing, CI/CD, Web Scraping, Authentication & Authorization</li>
+    </ul>
+  </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-item">
-            <h3>Telegram Bot Converter</h3>
-            <p>A bot that converts videos to audio, images to text, text to speech, and more.</p>
-        </div>
-        <div class="project-item">
-            <h3>E-commerce Website</h3>
-            <p>A full-fledged online store with Django and Stripe payment integration.</p>
-        </div>
-        <div class="project-item">
-            <h3>Blog Platform</h3>
-            <p>A multi-user blogging system with comment moderation and user profiles.</p>
-        </div>
-    </section>
+  <section id="experience">
+    <h2>Work Experience</h2>
 
-    <section id="cv">
-        <h2>Download CV</h2>
-        <div class="cv-download">
-            <a href="my cv.docx" download="my cv.docx" class="cv-download-button">Download My CV</a>
-        </div>
-    </section>
+    <div class="experience-item">
+      <h3><a href="https://amchat.app" target="_blank">Web Developer Intern – Amchat</a></h3>
+      <p><em>October 2025 – Present</em></p>
+      <p>Amchat is an all-in-one Nigerian platform for seamless communication, instant payments, and everyday digital services.</p>
+      <ul>
+        <li>Collaborating on the development of Amchat’s full-stack web platform using Django, React.js, and TypeScript.</li>
+        <li>Implementing responsive UI components and API integrations for messaging and payment features.</li>
+        <li>Assisting in optimizing backend performance and database queries.</li>
+        <li>Supporting deployment and debugging processes in a live production environment.</li>
+      </ul>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Saleh Ahmad. All rights reserved.</p>
-    </footer>
+    <div class="experience-item">
+      <h3><a href="https://stemlab.com.ng/" target="_blank">Web Developer – Stemlab Kano</a></h3>
+      <p><em>Internship from Jul 2023 – Dec 2024</em></p>
+      <ul>
+        <li>Developed and maintained web applications using Django and Django REST Framework.</li>
+        <li>Designed and optimized database models for performance and scalability.</li>
+        <li>Integrated third-party APIs and payment gateways.</li>
+        <li>Implemented authentication, role-based access control, and security best practices.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3><a href="https://apply.maikaratu.com.ng/" target="_blank">Web Developer & Python Tutor – Maikaratu Academic Consult</a></h3>
+      <p><em>Dec 2024 – Present</em></p>
+      <ul>
+        <li>Taught Python and web development courses, mentoring students through real-world projects.</li>
+        <li>Delivered structured Python and web development courses tailored to different skill levels.</li>
+        <li>Conducted online and in-person workshops on Python programming and web development best practices.</li>
+        <li>Developed course materials, coding challenges, and assessments to track student progress.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>Freelance Django Developer</h3>
+      <p><em>Jan 2024 – Present</em></p>
+      <ul>
+        <li>Built custom web applications for clients, including e-commerce and management systems.</li>
+        <li>Developed REST APIs for mobile and web applications.</li>
+        <li>Deployed applications on cloud platforms and managed server configurations.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Aliko University of Science and Technology</strong> – Bachelor's in Computer Science (Ongoing)</p>
+    <p>Expected Graduation: 2026</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-item">
+      <h3>Telegram Bot Converter</h3>
+      <p>A bot that converts videos to audio, images to text, text to speech, and more.</p>
+    </div>
+    <div class="project-item">
+      <h3>E-commerce Website</h3>
+      <p>A full-fledged online store with Django, Stripe payment integration, and user authentication.</p>
+    </div>
+    <div class="project-item">
+      <h3>Blog Platform</h3>
+      <p>A multi-user blogging system with comment moderation and user profiles.</p>
+    </div>
+    <div class="project-item">
+      <h3>website to Ballsbdridge Contructions</h3>
+      <p></p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications & Training</h2>
+    <ul>
+      <li>Django for Web Development – web3school</li>
+      <li>
+        Postman API Fundamentals Student Expert – 
+        <a href="https://api.badgr.io/public/assertions/cTxow59USVyLryFqBvO7gg?identity__email=salehahmadsarki%40gmail.com" target="_blank">
+          View Certificate
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="soft-skills">
+    <h2>Soft Skills</h2>
+    <ul>
+      <li>Problem Solving</li>
+      <li>Team Collaboration</li>
+      <li>Attention to Detail</li>
+      <li>Time Management</li>
+    </ul>
+  </section>
+
+  <section id="cv">
+    <h2>Download CV</h2>
+    <div class="cv-download">
+      <a href="my cv.pdf" download class="cv-download-button">Download My CV (PDF)</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Saleh Ahmad. All rights reserved.</p>
+  </footer>
+<script>
+    const toggleButton = document.getElementById("theme-toggle");
+    const body = document.body;
+    const icon = toggleButton.querySelector("i");
+
+    // Load saved theme preference
+    if (localStorage.getItem("theme") === "light") {
+      body.classList.add("light-mode");
+      icon.classList.replace("fa-moon", "fa-sun");
+    }
+
+    toggleButton.addEventListener("click", () => {
+      body.classList.toggle("light-mode");
+      const isLight = body.classList.contains("light-mode");
+      icon.classList.replace(isLight ? "fa-moon" : "fa-sun", isLight ? "fa-sun" : "fa-moon");
+      localStorage.setItem("theme", isLight ? "light" : "dark");
+    });
+  </script>
+  
+<script>
+  const sections = document.querySelectorAll("section");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  sections.forEach((section) => {
+    observer.observe(section);
+  });
+</script>
 </body>
 </html>
