@@ -13,28 +13,34 @@ body {
 }
 
 /* Header */
-header {
+.header-content  {
   text-align: center;
   padding: 3rem 1rem;
   background: #161b22;
   border-bottom: 1px solid #30363d;
 }
 
-header .profile-img {
+.header-content .profile-img {
   width: 130px;
   height: 130px;
   border-radius: 50%;
   border: 3px solid #238636;
   margin-bottom: 1rem;
+  object-fit: cover; /* prevents stretching */
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* centers image */
+  box-shadow: 0 0 10px #23863633; /* subtle green glow */
 }
 
-header h1 {
+
+.header-content  h1 {
   font-size: 2rem;
   color: #fff;
   margin-bottom: 0.3rem;
 }
 
-header p {
+.header-content  p {
   font-size: 1.1rem;
   color: #8b949e;
 }
